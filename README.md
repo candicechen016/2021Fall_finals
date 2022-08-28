@@ -92,13 +92,13 @@ We use two data sets to create our food banks network. The major data set with t
 
 ## Discussions
 
-1. More experiments to explore
-In our simulation, we only use the FIFO approach to calculate daily transactions. If food banks have some promotions or encourage people to take some quantity of d0 or d1 produce home. The randomness could be designed in a different way. Similarly, the randomness of freshness (shelf life) is defined from the very beginning. Another way is defining in a daily scope.
-2. The relation between food waste percentage and food freshness
+1. More experiments to explore 
+In our simulation, we only use the FIFO approach to calculate daily transactions. If food banks have some promotions or encourage people to take some quantity of d0 or d1 produce. The randomness could be designed in a different way. Similarly, the randomness of freshness (shelf life) is defined from the very beginning. Another way is defining in a daily scope.
+2. The relation between food waste percentage and food freshness 
 Although we didn't focus on the the relationship between food waste percentage and food freshness, we still found some trends. The daily percentage of food waste has something to do with the shelf life. It's a simple topic to extend based on our current model.
-3. Other scenarios expected to further studying
+3. Other scenarios expected to further studying 
 The network in our model is created mainly by distance. There are so many scenarios that could use this model to test. For example, with the sharing relation, what if one of the sharing partners couldn't work, how the network operates to support each other? Are they able to fulfill normal daily demands? Or, what if some unexpected events destroy certain regions, is the existing network capable to support such urgent demand?
-4. Program efficiency
+4. Program efficiency 
 With our primary purpose of conducting MC simulation, the current version will be better if we make some efficiency improvements.
 
 
